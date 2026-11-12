@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "repository": "https://github.com/openai/openai-cookbook",
+    "commit": "7379810d01589f91b367c17fb0619db02bf39345",
+    "path": "examples/gpt-5/codex_prompting_guide.ipynb",
+    "section": "## Recommended Starter Prompt",
+    "docs": "https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide",
+    "license": "MIT",
+    "sha256": "51d935038aeab4668f79bf4a01edbf4e5b1b94c2a6b76537c8d96c4dafe1beed"
+  },
+  "referenceImplementation": {
+    "repository": "https://github.com/openai/codex",
+    "commit": "6bfdc75f0d9e6fae313234f694839866d7c63c39",
+    "path": "codex-rs/core/gpt-5.2-codex_prompt.md",
+    "license": "Apache-2.0"
+  },
+  "adaptation": {
+    "description": "Literal replacements adapt harness identity, tool names, and parallel-call wording for DeepSeek Harness.",
+    "implementation": "prompt.js"
+  }
+}

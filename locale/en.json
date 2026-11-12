@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Codex Preset",
+    "description": "Adds a Codex-style Agent preset with an autonomous workflow, system prompt, and tool descriptions."
+  }
+}

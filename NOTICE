@@ -1,0 +1,21 @@
+This project vendors the "Recommended Starter Prompt" from OpenAI's open-source
+OpenAI Cookbook and references the prompt implementation in OpenAI Codex.
+
+Prompt source:
+- Repository: https://github.com/openai/openai-cookbook
+- Commit: 7379810d01589f91b367c17fb0619db02bf39345
+- File: examples/gpt-5/codex_prompting_guide.ipynb
+- Section: ## Recommended Starter Prompt
+- Documentation: https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide
+- License: MIT, reproduced in LICENSES/OpenAI-Cookbook-MIT.txt
+
+Reference implementation:
+- Repository: https://github.com/openai/codex
+- Commit: 6bfdc75f0d9e6fae313234f694839866d7c63c39
+- File: codex-rs/core/gpt-5.2-codex_prompt.md
+- License: Apache-2.0, reproduced in LICENSES/OpenAI-Codex-Apache-2.0.txt
+
+The unmodified prompt is stored at prompts/codex-recommended-starter.md.
+prompt.js applies a fixed, test-covered set of replacements for DeepSeek
+Harness identity, available tool names, and parallel-call wording. No
+proprietary or non-public Codex prompt content is included.

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Codex 预设",
+    "description": "新增一个 Codex 风格的 Agent 预设，包含自主工作流、系统提示词和工具描述。"
+  }
+}
