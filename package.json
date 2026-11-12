@@ -1,6 +1,6 @@
 {
   "name": "@que2333/dsh-codex-preset",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Adds a Codex-style Agent preset to DeepSeek Harness",
   "type": "module",
   "main": "./index.js",
